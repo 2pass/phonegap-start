@@ -1,29 +1,40 @@
-# Hello World PhoneGap Application
+PhoneGap
+========
 
-> A Hello World application built with PhoneGap
+> PhoneGap is a web platform that exposes native mobile device apis and data to JavaScript. PhoneGap is a distribution of [Apache Cordova](http://cordova.io).
 
-## PhoneGap Build
 
-Create a new app with the following repository:
+Get Started
+-----------
 
-    https://github.com/phonegap/phonegap-start.git
+[Getting Started Guides](http://docs.phonegap.com/guide_getting-started_index.md.html)
 
-## Run Application
+Community
+---------
 
-    /www/index.html
+- [Website](http://phonegap.com)
+- [Documentation](http://docs.phonegap.com/)
+- [Twitter](http://twitter.com/phonegap)
+- [Facebook](http://facebook.com/phonegap)
+- [Wiki](http://wiki.phonegap.com/)
+- [Mailing List](http://groups.google.com/group/phonegap)
+- [Issue Tracker](https://issues.apache.org/jira/browse/CB)
+- [IRC](http://webchat.freenode.net/?channels=#phonegap)
 
-## Run Tests
+Directory Structure
+-------------------
 
-    /www/spec.html
+      |-doc/ ........... source documentation
+	  |-lib/ ........... platform code for supported operating systems
+	  | |-android/
+	  | |-blackberry/
+	  | |-cordova-cli/
+	  | |-ios/
+          | |-windows-phone-7
+          | |-windows-phone-8
+	  | |-windows8/
+	  |-changelog ..... a changelog compiled from comments and authors
+	  |-license ....... the Apache Software License v2
+	  |-version ....... release version in plain text
+	  '-readme.md ..... release readme
 
-## Issues and Pull Requests
-
-This application is a modification of the [Apache Cordova Hello World][1].
-
-For issues with __the application__, please submit an issue or pull request
-to the [Apache Cordova source code][1].
-
-For issues with __the PhoneGap Build integration__, please submit
-an issue or pull request to this project.
-
-[1]: https://github.com/apache/cordova-app-hello-world
